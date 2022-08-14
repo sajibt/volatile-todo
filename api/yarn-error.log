@@ -1,0 +1,37 @@
+Arguments: 
+  /home/mow/.nvm/versions/node/v16.16.0/bin/node /home/mow/.nvm/versions/node/v16.16.0/bin/yarn
+
+PATH: 
+  /home/mow/.autojump/bin:/usr/bin/python3:/home/mow/.autojump/bin:/usr/bin/python3:/home/mow/.nvm/versions/node/v16.16.0/bin:/home/mow/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOTEMPTY: directory not empty, rmdir '/mnt/169C286A9C284699/Javascript/projects/volatile-todo/api/node_modules/bcrypt/lib/binding/napi-v3'
+
+npm manifest: 
+  {
+    "type": "module",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "body-parser": "^1.20.0",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
